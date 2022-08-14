@@ -1,8 +1,8 @@
 import random
 
-print("\033[91;1m***** Well-Come to the Snack-Water-Gun Game *****")
-print("\033[92;1mNote:- There will be 10 rounds between you and computer!\n")
-Name = input("\033[35;1mEnter your name: ")
+print("\n***** Well-Come to the Snack-Water-Gun Game *****")
+print("Note:- There will be 10 rounds between you and computer!\n")
+Name = input("Enter your name: ")
 option = ['S', 'W', 'G']
 while True:
     i = 1
@@ -12,100 +12,99 @@ while True:
         computer_choice = random.choice(option)
         print("\n")
         user_choice = input(
-            "\033[92;1mEnter 'S' for Snack, 'W' for Water, and 'G' for Gun: ")
+            "Enter 'S' for Snack, 'W' for Water, and 'G' for Gun: ")
 
         if computer_choice == 'S' and user_choice == 'S':
-            print(f"\033[94;1mDraw! this round. " "You choose ", {user_choice}, "and computer choose ",
+            print(f"\nDraw! this round. " "You choose ", {user_choice}, "and computer choose ",
                   {computer_choice})
-            print("\033[93;1m*** Dono Sap aapas me mar mite ***")
-            print("\033[95;1m", Name, "Score is: ", user_score)
-            print("\033[95;1mComputer Score is: ", computer_score)
+            print("*** BOTH THE SNAKES KILLED EACH OTHER ***")
+            print(Name, "Score is: ", user_score)
+            print("Computer Score is: ", computer_score)
 
         elif computer_choice == 'S' and user_choice == 'W':
-            print(f"\033[94;1mYou Lose! this round. " "You choose ", {user_choice}, "and computer choose ",
+            print(f"\nYou Lose! this round. " "You choose ", {user_choice}, "and computer choose ",
                   {computer_choice})
-            print("\033[93;1m*** Sap pura pani pi gaya ***")
+            print("*** THE SNAKE DRANK ALL THE WATER ***")
             computer_score += 1
-            print("\033[95;1m", Name, "Score is: ", user_score)
-            print("\033[95;1mComputer Score is: ", computer_score)
+            print(Name, "Score is: ", user_score)
+            print("Computer Score is: ", computer_score)
 
         elif computer_choice == 'S' and user_choice == 'G':
-            print(f"\033[94;1mYou Won! this round. " "You choose ", {user_choice}, "and computer choose ",
+            print(f"\nYou Won! this round. " "You choose ", {user_choice}, "and computer choose ",
                   {computer_choice})
-            print("\033[93;1m*** Gun ne sap ko fod diya ***")
+            print("*** THE SNAKE WAS KILLED BY GUNSHOT ***")
             user_score += 1
-            print("\033[95;1m", Name, "Score is: ", user_score)
-            print("\033[95;1mComputer Score is: ", computer_score)
+            print(Name, "Score is: ", user_score)
+            print("Computer Score is: ", computer_score)
 
         elif computer_choice == 'W' and user_choice == 'S':
-            print(f"\033[94;1mYou Won! this round. " "You choose ", {user_choice}, "and computer choose ",
+            print(f"\nYou Won! this round. " "You choose ", {user_choice}, "and computer choose ",
                   {computer_choice})
-            print("\033[93;1m*** Sap pura pani pi gaya ***")
+            print("*** THE SNAKE DRANK ALL THE WATER ***")
             user_score += 1
-            print("\033[95;1m", Name, "Score is: ", user_score)
-            print("\033[95;1mComputer Score is: ", computer_score)
+            print(Name, "Score is: ", user_score)
+            print("Computer Score is: ", computer_score)
 
         elif computer_choice == 'W' and user_choice == 'W':
-            print(f"\033[94;1mDraw! this round. " "You choose ", {user_choice}, "and computer choose ",
+            print(f"\nDraw! this round. " "You choose ", {user_choice}, "and computer choose ",
                   {computer_choice})
-            print(
-                "\033[93;1m*** Pani-Pani mil gaye aur dono me dosti ho gayi ***")
-            print("\033[95;1m", Name, " Score is: ", user_score)
-            print("\033[95;1mComputer Score is: ", computer_score)
+            print("*** WATER AND WATER BECAME ONE ***")
+            print(Name, " Score is: ", user_score)
+            print("Computer Score is: ", computer_score)
 
         elif computer_choice == 'W' and user_choice == 'G':
-            print(f"\033[94;1mYou Lose! this round. " "You choose ", {user_choice}, "and computer choose ",
+            print(f"\nYou Lose! this round. " "You choose ", {user_choice}, "and computer choose ",
                   {computer_choice})
-            print("\033[93;1m*** Gun pani me dub gayi ***")
+            print("*** THE GUN SANK IN THE WATER ***")
             computer_score += 1
-            print("\033[95;1m", Name, " Score is: ", user_score)
-            print("\033[95;1mComputer Score is: ", computer_score)
+            print(Name, " Score is: ", user_score)
+            print("Computer Score is: ", computer_score)
 
         elif computer_choice == 'G' and user_choice == 'S':
-            print(f"\033[94;1mYou Lose! this round. " "You choose ", {user_choice}, "and computer choose ",
+            print(f"\nYou Lose! this round. " "You choose ", {user_choice}, "and computer choose ",
                   {computer_choice})
-            print("\033[93;1m*** Gun ne sap ko fod diya ***")
+            print("*** THE SNAKE WAS KILLED BY GUNSHOT ***")
             computer_score += 1
-            print("\033[95;1m", Name, " Score is: ", user_score)
-            print("\033[95;1mComputer Score is: ", computer_score)
+            print(Name, " Score is: ", user_score)
+            print("Computer Score is: ", computer_score)
 
         elif computer_choice == 'G' and user_choice == 'W':
-            print(f"\033[94;1mYou Won! this round. " "You choose ", {user_choice}, "and computer choose ",
+            print(f"\nYou Won! this round. " "You choose ", {user_choice}, "and computer choose ",
                   {computer_choice})
-            print("\033[93;1m*** Gun pani me dub gayi ***")
+            print("*** THE GUN SANK IN THE WATER ***")
             user_score += 1
-            print("\033[95;1m", Name, " Score is: ", user_score)
-            print("\033[95;1mComputer Score is: ", computer_score)
+            print(Name, " Score is: ", user_score)
+            print("Computer Score is: ", computer_score)
 
         elif computer_choice == 'G' and user_choice == 'G':
-            print(f"\033[94;1mDraw! this round. " "You choose ", {user_choice}, "and computer choose ",
+            print(f"\nDraw! this round. " "You choose ", {user_choice}, "and computer choose ",
                   {computer_choice})
-            print("\033[93;1m*** Banduk ne banduk ko hi fod dala ***")
-            print("\033[95;1m", Name, " Score is: ", user_score)
-            print("\033[95;1mComputer Score is: ", computer_score)
+            print("*** BOTH THE GUNS WERE BURNT TO ASHES AMONG THEMSELVES ***")
+            print(Name, " Score is: ", user_score)
+            print("Computer Score is: ", computer_score)
 
         else:
-            print("\033[91;1mInvalid input")
+            print("\nInvalid input")
 
         i += 1
 
     if user_score > computer_score:
-        print(f"\033[96;1m\nCongratulation You won this game" "\nyour score is: ", {user_score},
+        print(f"\nCongratulation You won this game" "\nyour score is: ", {user_score},
               "\nComputer score is: ", {computer_score})
 
     elif user_score < computer_score:
-        print(f"\033[96;1m\nOpps! You lose this game" "\nyour score is: ", {user_score}, "\nComputer score is: ",
+        print(f"\nOpps! You lose this game" "\nyour score is: ", {user_score}, "\nComputer score is: ",
               {computer_score})
 
     else:
-        print(f"\033[96;1m\nMatch draw!" "\nyour score is: ", {
+        print(f"\nMatch draw!" "\nyour score is: ", {
               user_score}, "\nComputer score is: ", {computer_score})
 
-    replay = input("\033[94;1mDo you want to play again? (Y/N): ")
+    replay = input("\nDo you want to play again? (Y/N): ")
 
     if replay == 'y' or replay == 'Y':
         continue
     elif replay == 'n' or replay == 'N':
         break
     else:
-        print("\033[91;1mInvalid input")
+        print("Invalid input")
