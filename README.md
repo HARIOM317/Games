@@ -45,13 +45,19 @@ Welcome to the **Game Collection Repository**! 🚀 This repository contains som
 3. Start the slideshow and enjoy the game!
 
 ## 📸 Screenshots
-🚀 **Coming Soon!**
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/cceb1ced-cdec-478a-a237-cbbf964ab896" alt="Snack game" />
+  <img src="https://github.com/user-attachments/assets/92f5967c-7e7d-465f-be95-a6aed3f32aec" alt="KBC game" />
+</div>
+
+
+
 
 ## 🤝 Contributing
 Feel free to contribute by improving the games, fixing bugs, or adding new features. Fork the repo and submit a pull request! 🔥
 
 ## 📜 License
-This project is licensed under the MIT License. 📄
+This project is licensed under the [MIT License](LICENCE).📄
 
 ---
 🔗 **Connect with me:** [GitHub](https://github.com/HARIOM317) | [LinkedIn](https://linkedin.com/in/hariom-singh-mewada) | [Portfolio](https://hariom317.github.io/Hariom-Singh-Rajput-Portfolio/)
