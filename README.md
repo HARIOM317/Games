@@ -56,7 +56,7 @@ Welcome to the **Game Collection Repository**! 🚀 This repository contains som
 Feel free to contribute by improving the games, fixing bugs, or adding new features. Fork the repo and submit a pull request! 🔥
 
 ## 📜 License
-This project is licensed under the [MIT License](LICENCE).📄
+This project is licensed under the [MIT License](LICENSE).📄
 
 ---
 🔗 **Connect with me:** [GitHub](https://github.com/HARIOM317) | [LinkedIn](https://linkedin.com/in/hariom-singh-mewada) | [Portfolio](https://hariom317.github.io/Hariom-Singh-Rajput-Portfolio/)
