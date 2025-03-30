@@ -41,8 +41,7 @@ Welcome to the **Game Collection Repository**! 🚀 This repository contains som
 
 ### 🎤 For KBC (PowerPoint Macros)
 1. Open the PowerPoint file (`KBC.ppsx`).
-2. Enable Macros when prompted.
-3. Start the slideshow and enjoy the game!
+2. Start the slideshow and enjoy the game!
 
 ## 📸 Screenshots
 <div align="center">
